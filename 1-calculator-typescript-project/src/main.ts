@@ -1,7 +1,7 @@
 // create a simple calculator with typescript 
 
 
-import inquirer from 'inquirer';
+import inquirer from 'inquirer'
 
 
 const question = await inquirer.prompt([
