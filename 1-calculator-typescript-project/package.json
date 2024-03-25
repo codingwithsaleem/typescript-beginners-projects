@@ -1,16 +1,17 @@
 {
   "name": "1-calculator-typescript-project",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "simple calculator in typescript",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Saleem Raza",
   "license": "ISC",
   "dependencies": {
+    "1-calculator-typescript-project": "^1.0.0",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {

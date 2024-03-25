@@ -4,6 +4,9 @@
 import inquirer from 'inquirer'
 
 
+
+const calculator = async () => {
+
 const question = await inquirer.prompt([
 
     {
@@ -32,7 +35,7 @@ const operation = question.operation;
 
 if (operation === 'Addition') {
     console.log(`the result is : ${firstNumber + secondNumber}`)
-    console.log(typeof firstNumber);
+    
 } else if (operation === 'Subtraction') {
     console.log(`the result is : ${firstNumber - secondNumber}`)
 } else if (operation === 'Multiplication') {
@@ -48,3 +51,9 @@ if (operation === 'Addition') {
 }else{
     console.log('Invalid operation');
 }
+    
+    }
+
+calculator();
+
+export default calculator;
